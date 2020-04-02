@@ -14,7 +14,7 @@ yarn install
 yarn run dev
 ```
 
-打开：http://localhost:5002/#sort=sys&doc=chapter/main.md
+打开：http://localhost:5005
 
 ## 关于编辑内容
     直接编辑 /docs/sys/chapter/main.md 文件即可，需遵循markdown语法

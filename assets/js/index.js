@@ -2,6 +2,7 @@
 $(function () {
 	initZoom();
 	initHead();
+	window.location.href ='http://localhost:5005/#sort=sys&doc=chapter/main.md';
 })
 
 // md文档解析器初始化
@@ -26,7 +27,7 @@ function hashChange () {
 	$('#anchor').html('')
 	$('#chapter-list').html('')
 	if (sort && doc) {
-		initReadMe(sort + '/' + doc)
+	   initReadMe(sort + '/' + doc);
 		initAnchor(doc)
 	} else if (sort && !doc) {
 		initMenu(sort)
@@ -110,6 +111,7 @@ function initMenu (path) {
 
 // 初始化文章
 function initReadMe (path) {
+	console.log(path)
 	$.get(path, function (data) {
 		var result = md.render(data);
 

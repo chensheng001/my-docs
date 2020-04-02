@@ -1,7 +1,6 @@
 let connect = require('connect');
 let serveStatic = require('serve-static');
 let morgan = require('morgan');
-
 let app = connect()
 	.use(morgan('combined'))
 	.use('/', serveStatic(__dirname + '/assets'))
@@ -14,6 +13,6 @@ let app = connect()
 		console.log(err)
 		res.end()
 	})
-	.listen(5002, function () {
-		console.log('Server running on 5002...');
+	.listen(5005, function () {
+		console.log('Server running on 5005...');
 	})
