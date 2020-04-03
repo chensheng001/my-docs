@@ -2,7 +2,9 @@
 
 ## 运行预览
 
-<a href="http://write.blog.csdn.net/postlist" target="_blank">跳到自己博客列表</a>
+```html
+  <a href="http://write.blog.csdn.net/postlist" target="_blank">跳到自己博客列表</a>
+```  
 
 这是一个链接 [测试](https://www.baidu.com?target='_blank')
 
