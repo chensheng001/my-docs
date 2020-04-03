@@ -2,7 +2,7 @@
 
 ## 运行预览
 
-这是一个链接 [测试](https://www.baidu.com){:target="_blank"}
+这是一个链接 [测试](https://www.baidu.com?target='_blank')
 
 ```javascript
 npm install
