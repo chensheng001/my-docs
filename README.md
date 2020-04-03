@@ -2,7 +2,7 @@
 
 ## 运行预览
 
-这是一个链接 [测试](https://www.baidu.com)
+[链接](https://www.cnblogs.com/dunitian/p/4822808.html#ai){:target="_blank"}
 
 ```javascript
 npm install
