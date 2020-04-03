@@ -2,6 +2,8 @@
 
 ## 运行预览
 
+这是一个链接 [测试](https://www.baidu.com?_blank)
+
 ```javascript
 npm install
 npm run dev
